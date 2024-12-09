@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparação de Imagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Comparação de Imagens Originais, Otimizadas e Versões Mobile</h1>
+  <div class="image-container">
+    <!-- Imagem 1 -->
+    <div class="image-group">
+      <h2>Imagem 1</h2>
+      <img src="original/imagemoriginal1.jpeg" alt="Imagem Original 1">
+      <picture>
+        <source srcset="otimizado1.webp" type="image/webp" media="(max-width: 600px)">
+        <img src="otimizado/imagemotimizada1.jpeg" alt="Imagem Otimizada 1">
+      </picture>
+      <div class="mobile-version">
+        <h3>Versão Mobile</h3>
+        <img src="otimizado/imagemoriginal1.webp" alt="Imagem Mobile 1">
+      </div>
+    </div>
+
+    <!-- Imagem 2 -->
+    <div class="image-group">
+      <h2>Imagem 2</h2>
+      <img src="original/imagemoriginal2.png" alt="Imagem Original 2">
+      <picture>
+        <source srcset="otimizado2.webp" type="image/webp" media="(max-width: 600px)">
+        <img src="otimizado/imagemotimizada2.png" alt="Imagem Otimizada 2">
+      </picture>
+      <div class="mobile-version">
+        <h3>Versão Mobile</h3>
+        <img src="otimizado/imagemoriginal2.webp" alt="Imagem Mobile 2">
+      </div>
+    </div>
+
+    <!-- Imagem 3 -->
+    <div class="image-group">
+      <h2>Imagem 3</h2>
+      <img src="original/imagemoriginal3.png" alt="Imagem Original 3">
+      <picture>
+        <source srcset="otimizado3.webp" type="image/webp" media="(max-width: 600px)">
+        <img src="otimizado/imagemotimizada3.png" alt="Imagem Otimizada 3">
+      </picture>
+      <div class="mobile-version">
+        <h3>Versão Mobile</h3>
+        <img src="otimizado/imagemoriginal3.webp" alt="Imagem Mobile 3">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+  
